@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id='@+id/nav_main'
+            android:icon="@drawable/ichomeblack"
+            android:title="Home" />
+
+        <item
+            android:id='@+id/nav_account'
+            android:icon="@drawable/icconference"
+            android:title="Orders"
+            />
+
+        <item
+            android:id='@+id/nav_maps'
+            android:icon="@drawable/icplaceblack"
+            android:title="Maps" />
+
+        <item
+            android:id='@+id/nav_leader'
+            android:icon="@drawable/iclibrarybooks"
+            android:title="Leaderboard" />
+
+        <item
+            android:id='@+id/nav_orders'
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ordered Foods" />
+
+        <item
+            android:id='@+id/nav_coupons'
+            android:title="coupons"
+            android:icon="@drawable/icbookmark"
+            />
+
+        <item
+            android:id='@+id/nav_restaurants'
+            android:title="Restaurants you have visited"
+            android:icon="@drawable/basillica"
+
+         />
+
+
+    </group>
+
+    <item android:title="Social">
+
+            <item
+                android:id='@+id/nav_sharing'
+                android:title="Take Pictures"
+                android:icon="@drawable/ic_menu_camera"
+                />
+            <item android:title="Share"></item>
+                <menu>
+                    <item
+                        android:id='@+id/nav_facebook'
+                        android:title="Share via Facebook"
+                        android:icon="@drawable/icfacebook"
+                        />
+                    <item
+                        android:id='@+id/va_twitter'
+                        android:title="Share via twitter"
+                        android:icon="@drawable/ictwitter"
+                    />
+                 </menu>
+                <group>
+                    <item
+                        android:id='@+id/nav_about'
+                        android:icon="@drawable/icinfoblack"
+                        android:title="About"
+                        />
+                    <item
+                        android:id='@+id/nav_report'
+                        android:icon="@drawable/icreport"
+                        android:title="Report Bug"
+                        />
+                </group>
+    </item>
+        </menu>
